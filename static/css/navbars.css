@@ -237,7 +237,6 @@ body {
         background: yellow;
         color: black ;
         font-weight: 700;
-        border:solid 1px Green;
         width: 350px;
         height: 20px;
         text-align: center;
@@ -254,9 +253,9 @@ body {
           font-size: 12px;
           padding: 30px;
           width: auto;
-          height: 350px;
-          overflow: hidden;
+          height: 400px;
           border:solid 10px LightSteelBlue;
+          border-radius: 10px;
           margin-top: 60px;
           }
           
