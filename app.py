@@ -1,12 +1,11 @@
 import mysql.connector,funciones,os
-from flask import Flask, render_template,flash, request, session, redirect, url_for
+from flask import Flask, render_template,flash, request,  redirect, url_for
 from datetime import datetime
 from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
 app.secret_key=os.getenv("APP_KEY")
-
 DB_HOST =os.getenv('DB_HOST')
 DB_USERNAME =os.getenv("DB_USERNAME")
 DB_PASSWORD =os.getenv("DB_PASSWORD")
